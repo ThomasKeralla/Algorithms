@@ -1,0 +1,18 @@
+#!/bin/bash
+
+set -e
+
+clear
+
+#../jcr Union_find union_find_in-1.txt
+echo
+#../jcr Union_find union_find_in-2.txt
+
+#../jcr Quick_union in-3.txt
+#../jcr Quick_union union_find_in-1.txt
+echo
+#../jcr Quick_union union_find_in-2.txt
+
+../jcr Weighted_quick_union union_find_in-1.txt
+echo
+#../jcr Weighted_quick_union union_find_in-2.txt

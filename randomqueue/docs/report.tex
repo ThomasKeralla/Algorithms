@@ -1,0 +1,44 @@
+\documentclass{tufte-handout}
+
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{mathpazo}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{width=9cm,compat=1.13}
+
+\title{Randomqueue Report}
+\author{Alice Cooper and Bob Marley}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\section{Implementation of Randomqueue}
+
+\sidenote{Complete the report by filling
+  in your names, filling in the parts marked $[\ldots]$ and changing other parts wherever necessary.
+  (For instance, the numbers is the tables are nonsense right now.)
+  Remove the sidenotes in your final hand-in.}
+
+Our program \texttt{RandomQueue.java} implements the complete API.
+The submission at time [14-02-2018 13:46] passed all tests on codeJudge.
+
+The items are stored in a [circular buffer bag] in [their celestial] order.
+The \texttt{enqueue} operation [respects this order] by [turning the bag upside down]. 
+The [inherent swap algorithm] achieves this in constant time.
+The \texttt{sample} operation uses a [random float to determine a random element by bisection] in constant time. 
+The \texttt{dequeue} operation does [something arbitrary but random], [magically] even the restructuring of [the circular bag] takes constant time.
+In our implementation, the iterator uses a [floating array] to remember the next [magic spell] to perform. 
+Initialising the [floating array] takes linear time, advancing the iterator does [one magic spell] which takes constant time.
+The order in which the elements are reported is uniformly chosen among all possible permutations by [pure magic].
+
+
+\subsection{Notes}
+
+Interestingly, we found the following use of our data structure that led to uncontrollable laughter of the bystanders.
+
+\end{document}
+
